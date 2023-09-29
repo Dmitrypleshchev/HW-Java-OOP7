@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class ViewCalculator {
 
-    private ICalculableFactory calculableFactory;
+    private CalcFactory calculableFactory;
 
-    public ViewCalculator(ICalculableFactory calculableFactory) {
+    public ViewCalculator(CalcFactory calculableFactory) {
         this.calculableFactory = calculableFactory;
     }
 

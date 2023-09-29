@@ -1,10 +1,10 @@
-public class LoggableCalculator implements Calculable{
+public class LogCalc implements Calculable{
 
     protected Calculable calc;
     Loggable calcLogger = new CalcLogger();
 
 
-    public LoggableCalculator(Calculable calc) {
+    public LogCalc(Calculable calc) {
         calcLogger.saveLog("" + calc.getResult());
         this.calc = calc;
     }
