@@ -2,7 +2,7 @@
 Применить при создании программы архитектурные паттерны, добавить логирование калькулятора.
 Соблюдать принципы SOLID, паттерны проектирования. */
 
-package examples.calculator;
+
 
 public class Main {
     public static void main(String[] args) {
